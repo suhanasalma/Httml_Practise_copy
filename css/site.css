@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+html{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size:20px;
+   background-color:bisque;
+
+}
+h1{
+   font-family:'Zen Dots', cursive;
+}
+
+a.head{
+   color:rgb(36, 133, 23);
+}
+#html-study{
+   width:30%;
+}
+#html-build{
+   width:30%;
+}
+
+#formed{
+   text-align: center;
+}
+
+.space{
+   line-height: 45px;
+   
+}
+button{
+   color:brown;
+   background-color:lightpink;
+
+}
+footer{
+
+   line-height: 30px;
+}
+.ninja{
+   display:inline-block;
+   border: 5px solid red;
+   width:24%;
+   padding: 5px;
+   margin:10px;
+   border-radius:10px;
+}
+
+.ninjas{
+   display: inline-block;
+   border: 5px solid black;
+   width: 30%;
+   border-radius: 5%;
+   min-height: 300px;
+   padding: 5px;
+}
+
+table{
+
+   border-collapse: collapse;
+   width:50%;
+}
+td,th{
+   border: 2px solid rgb(16, 59, 232);
+   padding: 15px;
+}
+form{
+   margin: 50px;
+   
+}
+.work{
+   color:crimson;
+}

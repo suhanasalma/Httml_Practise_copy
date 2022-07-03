@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Demo Form</title>
+      <link rel="icon" href="Student-Read.ico"/>
+      <link rel="stylesheet" href="css/site.css"/>
+   </head>
+
+   <body>
+
+      <header>
+         <nav>
+            <ul>
+               <li> <a class="head" href="../index.html">Go To Home</a></li>
+               <li> <a class="head" href="HomeWork.html">Daily Homework</a></li>
+               <li> <a class="head" href="Assignment.html">Assignment</a></li>
+               <li> <a class="head" href="DemoTable.html">Table</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <main>
+         <h1 id="formed">Registration Site</h1>
+         <hr>
+         
+         <form action="POST">
+
+            <div>
+               <level for="firstName">First Name</level>
+               <input type="text" id="firstName" placeholder="First Name" name="firstName" required>
+            </div>
+
+            <div>
+               <level for="secondName">Last Name</level>
+               <input type="text" id="secondName" placeholder="Last Name" name="secondName" required>
+            </div>
+
+            <div>
+               <level for="email">Enter Your Email Address</level>
+               <input type="email" id="email" placeholder="Enter Email" name="email" required>
+            </div>
+
+            <div>
+               <level for="password">Password</level>
+               <input type="password" id="password" name="password" required>
+            </div>
+
+            <div>
+               <level for="phoneNo">Enter Your Phone No</level>
+               <input type="tel" id="phoneNo" placeholder="Contact No" name="phoneNo" required>
+            </div>
+
+            <div>
+               <level for="university">Choose Your University</level>
+               <select id="university">
+                  <option value="Choose">Choose</option>
+                  <option value="Bangladesh University">Bangladesh University</option>
+                  <option value="Daffodil University">Daffodil University</option>
+                  <option value="Brac University">Brac University</option>
+                  <option value="North South University">North South University</option>
+               </select>
+            </div>
+            
+            <div>
+               <level for="date">Enter Date</level>
+               <input type="date" id="date" name="date">
+            </div>
+
+            <div>
+               <level for="file">Enter Your File</level>
+               <input type="file" id="file" name="file">
+            </div>
+
+            <div>
+               <h3>Gender:</h3>
+               <input type="radio" id="Male" name="gender" value="Male">
+               <level for="Male">Male</level>
+               <input type="radio" id="Female" name="gender" value="Female">
+               <level for="Female">Female</level>
+               <input type="radio" id="Others" name="gender" value="Others">
+               <level for="Others">Others</level>
+            </div>
+
+            <div>
+               <h3>Select your favorite player: </h3>
+               <input type="checkbox" id="Shakib Al Hasan" name="Shakib Al Hasan" value="Shakib Al Hasan">
+               <level for="Shakib Al Hasan">Shakib Al Hasan</level>
+               <input type="checkbox" id="Taskin" name="Taskin" value="Taskin">
+               <level for="Taskin">Taskin</level>
+            </div>
+            <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </div>
+        
+      </main>
+      <footer>
+         <small>&copy;salma</small>
+      </footer>
+   </body>
+</html>
